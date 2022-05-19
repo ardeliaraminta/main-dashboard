@@ -1,0 +1,5 @@
+.CompactCard{
+    display: flex;
+    flex: 1;
+    height: 7rem!important;
+}

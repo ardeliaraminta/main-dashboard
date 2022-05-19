@@ -36,11 +36,44 @@ export const cardsData = [
         png: MonetizationOnIcon,
         series: [
          {
-             name: "balance",
+             name: "Balance",
              data:[300,5000,4680,935,233,10000]
-        }
-        ]
+        },
+        ],
+    },
+        {
+            title: "Expenses",
+            color:{
+                backGround: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)",
+                boxShadow: "0px 10px 20px 0px #e0c6f5"
+            },
+            barValue: 70,
+            value: "$647,605.74",
+            png: MonetizationOnIcon,
+            series: [
+             {
+                 name: "Expenses",
+                 data:[300,5000,4680,935,233,10000]
+            },
+            ],
 
-    }
+    },
+     {
+            title: "Summary",
+            color:{
+                backGround: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)",
+                boxShadow: "0px 10px 20px 0px #e0c6f5"
+            },
+            barValue: 70,
+            value: "$647,605.74",
+            png: MonetizationOnIcon,
+            series: [
+             {
+                 name: "Summary",
+                 data:[300,5000,4680,935,233,10000]
+            },
+            ],
 
-]
+    },
+
+];

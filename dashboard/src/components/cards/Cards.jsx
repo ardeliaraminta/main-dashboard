@@ -1,13 +1,27 @@
+import { color } from '@mui/system'
 import React from 'react'
+import { cardsData } from '../../data/data'
+import Card from '../Card/Card'
 import './Cards.css'
 
 const Cards = () => {
   return (
     <div className='Cards'>
-        Card
-        Card
-        Card
-    
+        {cardsData.map((card, id)=>{
+            return(
+                <div className="parentContainer">
+                    <Card
+                    title = {card.title}
+                    color = {card.color}
+                    barValue ={color.barValue}
+                    value ={card.value}
+                    png ={card.png}
+                    series={card.series}
+                    />
+                </div>
+
+            )
+        })}
     </div>
   )
 }

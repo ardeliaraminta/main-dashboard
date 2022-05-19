@@ -5,7 +5,7 @@ import './maindash.css'
 const Maindash = () => {
   return (
     <div className='maindash'>
-          <h1> Good Morning, User</h1>
+          <h1 className='text-white'> Good Morning, User</h1>
           <Cards/>
       </div>
 
