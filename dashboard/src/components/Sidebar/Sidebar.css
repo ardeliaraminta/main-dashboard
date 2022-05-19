@@ -1,0 +1,72 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 2rem;
+    transition: all 300ms ease;
+}
+
+.logo{
+    display: flex;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo>img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.logo>span>span{
+    color: var(--)
+}
+
+.menu{
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color:white;
+    height: 2.5rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 200ms ease;
+    font-size: 15px;
+    border-radius: 0.7rem;
+
+}
+
+.menuItem:hover{
+    cursor: pointer;
+
+}
+
+.active{
+    background: #273250;
+    margin-left: 0;
+}
+
+.active::before{
+    content:'';
+    width: 8px;
+    height: 100%;
+    background: #08143D;
+    margin-right: calc(1rem - 8px);
+}
+
+
+.menu .menuItem:last-child {
+    position: absolute;
+    bottom: 2.3rem;
+    width: 100%;
+  }
