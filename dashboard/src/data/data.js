@@ -28,27 +28,27 @@ export const cardsData = [
     {
         title: "Balance",
         color:{
-            backGround: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)",
+            backGround: "linear-gradient(to bottom right, #08143D, #122f8e)",
             boxShadow: "0px 10px 20px 0px #e0c6f5"
         },
-        barValue: 70,
-        value: "$647,605.74",
+        barv: 70,
+        value: "647,605.74",
         png: MonetizationOnIcon,
         series: [
          {
              name: "Balance",
              data:[300,5000,4680,935,233,10000]
         },
-        ],
-    },
+    ],
+},
         {
             title: "Expenses",
             color:{
-                backGround: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)",
+                backGround: "linear-gradient(to bottom right, #08143D, #122f8e)",
                 boxShadow: "0px 10px 20px 0px #e0c6f5"
             },
-            barValue: 70,
-            value: "$647,605.74",
+            barv: 80,
+            value: "647,605.74",
             png: MonetizationOnIcon,
             series: [
              {
@@ -61,11 +61,11 @@ export const cardsData = [
      {
             title: "Summary",
             color:{
-                backGround: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)",
+                backGround: "linear-gradient(to bottom right, #08143D, #122f8e)",
                 boxShadow: "0px 10px 20px 0px #e0c6f5"
             },
-            barValue: 70,
-            value: "$647,605.74",
+            barv: 70,
+            value: "647,605.74",
             png: MonetizationOnIcon,
             series: [
              {

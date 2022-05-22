@@ -13,13 +13,12 @@ const Cards = () => {
                     <Card
                     title = {card.title}
                     color = {card.color}
-                    barValue ={color.barValue}
+                    barv = {color.barv}
                     value ={card.value}
                     png ={card.png}
                     series={card.series}
                     />
                 </div>
-
             )
         })}
     </div>
