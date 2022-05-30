@@ -12,5 +12,14 @@
  }
 
  .Table:first-child{
-     border-radius: 0.7rem !important;
+     border-radius: 0.7rem !important ;
+ }
+
+ .status{
+     padding: 8px;
+     border-radius: 9px;
+ }
+
+ .Details{
+     color:cornflowerblue !important
  }

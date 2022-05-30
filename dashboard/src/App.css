@@ -41,6 +41,7 @@
   background-color: #08143D;
   overflow: hidden;
   grid-template-columns: 11rem auto 20rem;
+  gap: 10px;
 
 
 }
