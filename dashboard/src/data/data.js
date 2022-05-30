@@ -76,4 +76,25 @@ export const cardsData = [
 
     },
 
-];
+]
+
+export const UpdatesData = [
+    {
+        name: "Food",
+        noti:"spent $2 dollars Rujak Enak",
+        time:"33 seconds ago",
+    },
+    {
+        name: "Transportation",
+        noti:"spent $40 dollars for Lamborghini ",
+        time:"24 minutes ago",
+
+    },
+    {
+        name: "Rent",
+        noti:"spent $150 dollars for Electricity",
+        time:"1 hour ago",
+
+    },
+      
+]

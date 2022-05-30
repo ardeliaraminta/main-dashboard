@@ -1,0 +1,12 @@
+.Right{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    
+
+}
+
+.daily{
+    color: white;
+}
