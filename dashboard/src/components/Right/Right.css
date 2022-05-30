@@ -10,3 +10,23 @@
 .daily{
     color: white;
 }
+
+@media screen and (max-width: 1200px) {
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .Right{
+        width: 100%;
+        margin-top: 0;
+    }
+    .Right>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
